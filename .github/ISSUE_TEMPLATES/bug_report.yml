@@ -7,12 +7,12 @@ assignees: ["devynspencer"]
 body:
 	- type: markdown
     attributes:
-    	value: Thanks for taking the time to fill out this bug report!
+      value: Thanks for taking the time to fill out this bug report!
         
   - type: dropdown
     id: powershell-version
     attributes:
-			label: PowerShell version
+      label: PowerShell version
 			description: |
 				What version(s) of PowerShell are you using when the bug is encountered?
 				Enter `$PSVersionTable | select PSEdition, PSVersion` in your console if unsure.
@@ -30,10 +30,10 @@ body:
 				- Windows PowerShell 3.0
 				- Windows PowerShell 2.0
 		  	- Windows PowerShell 1.0
-  		multiple: true
+      multiple: true
 			default: 0 # Select latest
 		validations:
-			required: true
+      required: true
   
 	- type: textarea
     id: behavior-expected
